@@ -4,6 +4,7 @@ on:
   schedule:
     # Run every 10 minutes
     - cron:  '*/2 * * * *'
+  workflow_dispatch: 
 
 jobs:
   cron:
